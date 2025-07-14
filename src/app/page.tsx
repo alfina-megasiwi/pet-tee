@@ -1,9 +1,11 @@
+import { headers } from "next/headers";
 import Home from "../components/Home";
 import styles from "./page.module.css";
 
-export const BASE_API_URL = process.env.BASE_API_URL || "";
-
 const HomePage = () => {
+  headers();
+  const BASE_API_URL = process.env.BASE_API_URL || "";
+
   return (
     <div className={styles.wrapper}>
       <div className={styles["title-container"]}>
