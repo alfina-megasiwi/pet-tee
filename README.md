@@ -42,4 +42,4 @@ To be implemented:
 2. Gallery of previously generated images
 3. Additional animations for user engagement
 
-Credits to cris@kudos.chat
+Credits to cris
